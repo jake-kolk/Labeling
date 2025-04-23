@@ -5,7 +5,7 @@ on:
     types: [opened]
 
 permissions:
-  issues: write  # ✅ This is the key fix
+  issues: write
 
 jobs:
   add-label:
