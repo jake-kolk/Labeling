@@ -4,6 +4,9 @@ on:
   issues:
     types: [opened]
 
+permissions:
+  issues: write  # ✅ This is the key fix
+
 jobs:
   add-label:
     runs-on: ubuntu-latest
